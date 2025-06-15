@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/translation_management_assignment.iml" filepath="$PROJECT_DIR$/translation_management_assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile_app/android/translation_management_assignment_android.iml" filepath="$PROJECT_DIR$/mobile_app/android/translation_management_assignment_android.iml" />
+    </modules>
+  </component>
+</project>
