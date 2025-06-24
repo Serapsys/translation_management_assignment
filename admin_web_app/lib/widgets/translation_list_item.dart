@@ -47,7 +47,7 @@ class TranslationListItem extends StatelessWidget {
                 ),
                 const SizedBox(width: 8),
                 TextButton.icon(
-                  icon: const Icon(Icons.delete, size: 20),
+                  icon: const Icon(Icons.delete_forever, size: 20),
                   label: const Text('Delete'),
                   onPressed: onDelete,
                   style: TextButton.styleFrom(

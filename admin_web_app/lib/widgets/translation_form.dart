@@ -115,7 +115,7 @@ class _TranslationFormDialogState extends State<TranslationFormDialog> {
                     },
                   ),
                 );
-              }).toList(),
+              }),
             ],
           ),
         ),
@@ -128,8 +128,8 @@ class _TranslationFormDialogState extends State<TranslationFormDialog> {
           },
         ),
         ElevatedButton(
-          child: Text(_isEditing ? 'Save Changes' : 'Add Translation'),
           onPressed: _submitForm,
+          child: Text(_isEditing ? 'Save Changes' : 'Add Translation'),
         ),
       ],
     );

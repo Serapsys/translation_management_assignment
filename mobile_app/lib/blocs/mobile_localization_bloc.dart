@@ -12,7 +12,7 @@ class MobileLocalizationBloc extends Bloc<MobileLocalizationEvent, MobileLocaliz
 
 
   MobileLocalizationBloc(this._translationService)
-      : super(MobileLocalizationState(currentLocale: const Locale('en'))) { // Default locale
+      : super(const MobileLocalizationState(currentLocale: Locale('en'))) { // Default locale
     on<LoadInitialLocalization>(_onLoadInitialLocalization);
     on<SwitchLocaleEvent>(_onSwitchLocale);
     on<UpdateTranslationsFromServer>(_onUpdateTranslationsFromServer);
